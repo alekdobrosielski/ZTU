@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Client</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="bank">Bank</string>
+    <string name="accountNumber">Account Number</string>
+    <string name="confirmPassword">Confirm password</string>
+    <string name="loginButton">Sign In!</string>
+    <string name="registerButton">Register</string>
+    <string name="registerLink">Create an account.</string>
+    <string name="profile">Profile</string>
+    <string name="addPayment">Add Payment</string>
+    <string name="payments">My Payments</string>
+    <string name="group">All Users</string>
+    <string name="settings">Settings</string>
+    <string name="nav_name_str">Naaame</string>
+    <string name="nav_email_str">eeemail</string>
+    <string name="addPaymentDescr">Description</string>
+    <string name="menuHello">Hello!</string>
+    <string name="menuHelloConti">Here is your total summary of the month:</string>
+    <string name="updateBtn">Update</string>
+    <string name="split_on">Split on:</string>
+    <string name="split">Split</string>
+
+</resources>

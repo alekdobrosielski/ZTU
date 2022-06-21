@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="250dp"
+    android:layout_height="400dp"
+    android:layout_marginHorizontal="50dp"
+    android:layout_marginVertical="100dp"
+    android:background="@drawable/rounded_corners"
+    android:paddingHorizontal="20dp"
+    tools:context="Fragments.PaymentFragment">
+
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        android:paddingVertical="30dp"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/split"
+            android:backgroundTint="@color/grey"
+            android:id="@+id/splitButton"/>
+        <TextView
+            android:id="@+id/titlePaymentTV"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:text="dsfdsfsdf"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/datePaymentTV"
+            android:layout_gravity="center_horizontal"
+            android:text="sdfsdfdsfdsf"
+            android:textAlignment="center"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/descriptionPaymentTV"
+            android:layout_gravity="start"
+            android:gravity="start"
+            android:text="dsfsdfdsfsdf"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/split_on"/>
+        <ListView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/list_view"/>
+    </LinearLayout>
+</RelativeLayout>

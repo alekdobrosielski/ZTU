@@ -1,0 +1,86 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="50dp"
+    android:layout_marginVertical="100dp"
+    android:minHeight="200dp"
+    android:minWidth="100dp"
+    android:background="@drawable/rounded_corners"
+    android:paddingHorizontal="30dp"
+    tools:context="Fragments.AddPaymentFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:paddingVertical="30dp">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="Title"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:gravity="center_horizontal" />
+
+        <EditText
+            android:id="@+id/titlePaymentET"
+            android:layout_width="190dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            />
+        <EditText
+            android:id="@+id/descriptionPaymentET"
+            android:layout_width="190dp"
+            android:layout_height="80dp"
+            android:lines="4"
+            android:layout_gravity="center_horizontal"
+            android:hint="@string/addPaymentDescr"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Value "
+                android:layout_marginTop="12dp"/>
+            <EditText
+                android:id="@+id/valuePaymentET"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:digits="0123456789."
+                android:inputType="number"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="zł"
+                android:layout_marginTop="12dp"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/addPaymentBtn"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:background="@drawable/rounded_corners"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="20dp"
+            android:text="Add!"
+            android:onClick="addPaymentBtn"
+
+            />
+
+    </LinearLayout>
+
+
+
+</FrameLayout>
